@@ -177,35 +177,44 @@ ol.carousel-indicators.list-gallery-thumb {
 
 /*page 2 end*/
 .formbg1{
-    background-color: whitesmoke;
-   
+    background-color: white;
+    box-shadow: 0 0 15px lightgray;
     padding: 0px;
-    border-radius: 50px;
-
-
-    
+    border-radius: 50px;   
 }
 .formbg1 input{
-    background-color: whitesmoke;
+    background-color: white;
     border:none;
     border-radius: 20px;
     font-size: 16px;
-    
-    
+}
+.formbg1 ul
+{
+    margin-bottom: 0px;
+    padding: 0 0;
 }
 .formbg1 ul li{
     display: inline-block;
-   padding-right: 125px; 
+    padding-right: 10px; 
     margin-left: 20px;
 
 }
+.formbg1 ul li input[type=text]{
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    color: #919191;
+    outline: #919191;
+}
+
+
 .sliderimages ul li{
     display: inline-block;
 }
 .btnborder1 {
    border-radius: 20px;
    border:solid 1px white;
-   background-color: #173669;
+   background-color: #016698;
    padding:5px 30px;
 
 }
@@ -260,10 +269,10 @@ ol.carousel-indicators.list-gallery-thumb {
    border-radius:  90%;
 }
 .hearti{
-    font-size: 16px;
+    font-size: 22px;
 }
 .hearti i{
-    color: #919191;
+    color: red;
 }
 
 .chatyborder1 button{
@@ -1902,11 +1911,11 @@ ul.list-inline li {
 
 .site-navbar .site-navigation .site-menu>li {
     display: inline-block;
-    padding: 10px 50px 10px 20px;
+    padding: 10px 66px 10px 0px;
 }
 
 .site-navbar-wrap.v1 .site-navbar .site-navigation .site-menu>li>a {
-    padding: 10px 10px;
+    padding: 10px 20px;
     color: #4d83a4;
     font-size: 14px ;
     font-weight: 600;
