@@ -1,0 +1,205 @@
+*{
+
+    font-family: 'Montserrat', sans-serif;
+}
+.dropdown-menu  li{
+	display: block;
+}
+.myprofile {
+	width: 150px;
+	color: red;
+}
+.colororange{
+	color: #F16622;
+}
+.bgorange{
+	background-color: #F16622;
+	
+}
+.btn-outline-danger{
+	color: #F16622;
+}
+.sec1{
+	padding-top: 150px;
+}
+.myadds1 li{
+	border: 1px solid lightgray;
+	display: flex;
+	margin-right: 20px;
+	padding: 3px 10px;
+	border-radius: 20px;
+	
+}
+.myadds1  a{
+	
+	color: #016698;
+}
+.colorblue{
+	color: #33C5F3;
+}
+.font12 {
+	font-size: 12px;
+}
+.font13 {
+	font-size: 13px;
+}
+.font14 {
+	font-size: 14px;
+}
+.font15 {
+	font-size: 15px;
+}
+.font16 {
+	font-size: 16px;
+}
+.font17 {
+	font-size: 17px;
+}
+.font18 {
+	font-size: 18px;
+}
+.font10 {
+	font-size: 10px;
+}
+.font11 {
+	font-size: 11px;
+}
+.font9 {
+	font-size: 9px;
+}
+.font8 {
+	font-size: 8px;
+}
+
+.mysearches1 li{
+	color: black;
+	margin-right: 30px;
+}
+.jc{
+	text-align: justify;
+}
+.msimg1{
+	position: relative;
+
+}
+.ms1{
+	position: relative;
+	left: 80px;
+	z-index: 3;
+	
+	
+}
+.ms2{
+	position:relative ;
+	left: 50px;
+	z-index: 2;
+	
+	
+}
+.ms3{
+	position: relative;
+	z-index: 1;
+	
+	
+}
+.csearchbox1{
+	
+	display: flex;
+	justify-content: center;
+
+}
+.cbuttons1{
+	border:1px solid lightgray;
+	justify-content: space-around;
+	
+	justify-content: center;
+
+	
+
+}
+.helpbtn{
+
+	border-right: 1px solid lightgray;
+}
+.helpbtn img{
+	
+	max-width: 30px;
+}
+.colorblue{
+	color: #166a9d;
+}
+.tabtextblue a{
+	color: #016698;
+}
+.tabhover1 a:hover {
+	color: #F16622;
+}
+.bgterm1 img{
+	width: 100%;
+}
+
+.colornav{
+    color: #016698;
+}
+.colorskyblue{
+    color: #33C5F3;
+}
+.colorgray{
+    color: #919191;
+}
+.jc{
+    text-align: justify;
+}
+.colororange{
+    color: #F16622;
+}
+.wishlisthiden1{
+	overflow-y: hidden;
+}
+p{
+	color: #919191;
+}
+.headerspace1{
+	padding-top: 80px;
+}
+.rfs3 form label {
+    font-size: 16px;
+    line-height: 30px;
+    color: #166a9d;
+    font-weight: bold;
+}
+.rfs4 form label {
+    font-size: 16px;
+    line-height: 30px;
+    color: #166a9d;
+    font-weight: bold;
+
+}
+.rfs4 form{
+	padding: 0;
+}
+
+.bannerletter1{
+	position: absolute;
+	top: 130px;
+	left: 450px;
+	
+}
+input[type=file]::file-selector-button {
+  padding: .2em .4em;
+  background: none;
+  transition: 1s;
+  color: #919191;
+  }
+  .verticaltablist1{
+  	float: left;
+  }
+  .imgroundedp	img{
+  	border-radius:50%;
+  }
+  .pbox1{
+  	box-shadow: 0 0 20px whitesmoke;
+  }
+  .profiletab2 li{
+  	padding:10px 0; 
+  }

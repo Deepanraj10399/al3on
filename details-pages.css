@@ -1,0 +1,464 @@
+.maincontent
+{
+    padding: 180px 100px 30px 100px;
+    font-family:'Montserrat';
+}
+
+.img-row .parag{
+    color:orange;
+    font-size: 14px;
+}
+.navigatorlink
+{
+    display: flex;
+    font-size: 12px;
+
+}
+.navigatorlink-btn-1
+{
+    background-color: white;
+    color: #4294FF;
+    border: none;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+.navigatorlink-btns
+{
+    background-color:rgb(224, 238, 255);
+    color: #4294FF;
+    border: none;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.navigatorlink-btn-1:hover
+{
+    background-color:#4294FF;
+    color: white;
+}
+.navigatorlink-btns:hover
+{
+    background-color:#4294FF;
+    color: white;
+}
+.maincontent-slidersection
+{
+    display: flex;
+    flex-grow: row nowrap;
+    justify-content: space-between;
+}
+
+/* ------------------------------------------------------- */
+/* image slider css */
+  .mySlides img {
+    vertical-align: middle;
+    height: 400px;
+    width: 100%;
+    object-fit: contain;
+    
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .containers2 {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    
+    color: white;
+    background-color: lightgrey;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: whitesmoke;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  .turcheck1 img{
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    max-width:20px;
+     
+  }
+  
+  /* Container for image text */
+  .caption-containers2 {
+    text-align: center;
+    background-color: lightgray;
+    padding: 2px 16px;
+    color: white;
+    border-radius:  0 0 10px 10px;
+  }
+  .rows2
+  {
+    display: flex;
+    justify-content: center;
+  }
+  .rows2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .columns2 {
+    float: left;
+    width: 16.66%;
+    height: 100px;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo2 {
+    opacity: 0.9;
+  }
+  .demo2
+  {
+    height: 100px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .demo2:hover
+  {
+    border: 2px solid orange;
+  }
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  /* ------------------------------------------------------------------ */
+  #fav-btn
+  {
+    padding: 8px 12px;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+  }
+  .favbtndiv
+  {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .boxtext
+  {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .boxtext-boxes
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 152.8px;
+    height: 120px;
+    padding: 8px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 15px -3px, rgba(0, 0, 0, 0.04) 0px 4px 6px -2px !important;
+  }
+  .boxtext-boxes p
+  {
+    font-size: 12px;
+    text-align: center;
+  }
+  .Additional-list
+  {
+    display: flex;
+    flex-grow: row wrap;
+    justify-content:space-between;
+    justify-items: flex-start;
+    justify-self: left;
+    /* align-items: self-start; */
+  }
+
+  .v-user2
+{
+    border: 1px solid rgb(176, 208, 249);
+    display: flex;
+    flex-grow: row nowrap;
+    align-items: center;
+    font-size: 10px;
+    padding: 3px 5px;
+    width: fit-content;
+    border-radius: 3px;
+    color: rgb(58, 136, 239);
+    background: linear-gradient(95.78deg, rgb(245, 249, 254) 100%, rgb(245, 249, 254) 95.78%);
+}
+
+
+.maincontent-slidersection-1
+{
+  width: 750px;
+}
+.maincontent-slidersection-2
+{
+  width: 300px;
+}
+.postbox
+{
+  background: rgb(255, 255, 255);
+  border-radius: 6px;
+  padding: 16px;
+  position: relative;
+}
+.telephone-button
+{
+  background-color: #F16622;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius:5px;
+}
+.chat-button
+{
+  background-color: #FFF;
+  color: #919191;
+  padding: 10px 50px;
+  border: 1px solid lightgray;
+  border-radius:5px;
+
+}
+
+/* ---------------------------------------------------------- */
+p{
+  margin-bottom: 0px !important;
+  color: #919191 !important;
+}
+::placeholder
+{
+  color: #919191 !important;
+  background:none;
+
+}
+#jobnum
+{
+ 
+  background-color: transparent;
+  color: #919191;
+  width: 350px;
+  border-radius: 5px;
+}
+.flexible-maincontent
+{
+  display: flex;
+  flex-grow: row nowrap;
+  justify-content: space-between;
+}
+.maincontent-0
+{
+  background-color: rgb(250, 248, 248);
+  width: 220px;
+  border-radius: 7px;
+  height: max-content;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+.maincontent-1
+{
+  width: 600px;
+}
+.maincontent-2
+{
+  width: 300px;
+}
+.table1 tr{
+  border-bottom: 1px solid lightgray;
+}
+.table1 td{
+  margin-left: 500px;
+  
+}
+.fontweight{
+  font-size: large;
+}
+.colororange{
+  color: #F16622;
+}
+.bgorange{
+  background-color: #F16622;
+  
+}
+.colorblue{
+  color: #33C5F3;
+}
+.text-orange{
+  color: #F16622;
+}
+
+@media only screen and (max-width: 425px) {
+     .tabledetails {
+        width: 100%;
+
+     }
+     .tabledetails table tbody tr td{
+    padding-right: 10px;
+
+    }
+     
+
+}
+
+.tabledetails table tbody tr th{
+    padding: 10px;
+
+}
+.tabledetails table tbody tr th{
+    padding-right: 100px;
+
+}
+.tabledetails table tbody tr td{
+    padding-right: 50px;
+
+}
+.tabledetails table tbody tr {
+   border-bottom-width: 1px;
+
+}
+.tabledetails tr {
+   border-bottom:1px solid lightgray;
+
+
+}
+.tabledetails table {
+  width: 100%
+
+
+}
+
+/* ------------------------------ */
+.Descriptionclass
+{
+  text-align: justify;
+}
+.applybtn
+{
+  width: auto;
+  padding: 5px 20px;
+  background-color:#F16622;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+.mystyle select
+{
+  background-color: white;
+  /* color: black; */
+  width: 100%;
+}
+.chat-button2
+{
+  background-color: transparent;
+  padding: 8px 0px;
+  width:100% ;
+  border: none;
+  color: #016698;
+}
+.chat-button2:hover
+{
+  background-color: lightgray;
+}
+
+.enquirybox
+{
+  padding: 10px 150px;
+  border: 1px solid lightgray;
+  border-radius: 9px;
+}
+.minebtn
+{
+  background: none !important;
+  color: #919191;
+  border: none;
+
+}
+.Submit
+{
+  background-color: #F16622;
+  color: #fff;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+}
+td
+{
+  padding: 10px;
+}
+th
+{
+  padding: 10px;
+
+}
+.remover
+{
+  background: none !important;
+ 
+}
+.thead{
+  padding:0 150px 0px 0;
+  color:#999696;
+  font-weight: bold;
+}
+.thead2{
+  color:#383636;
+  font-weight: bold;
+}
+
+.parap {
+  color:#016698;
+  font-size: 14px;
+}
+.sumry{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.deals{
+  padding-left: 10px;
+    color:#016698;
+    font-weight: bold;
+
+}
