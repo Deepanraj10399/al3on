@@ -38,8 +38,7 @@ a {
 }
 .submit_btn  {
 
-    padding-top: 10px;
-    margin-right: -90px;
+    padding: 10px;
 }
 .fa-solid
 {
@@ -152,9 +151,21 @@ color:#F16622;
     width: max-content;
     padding: 0 10px;
 }
+.lang-menu a
+{
+    color: #016698;
+}
 
+.commited
+{
+    position: relative;
+}
 
-
+.commitedabs
+{
+    position:absolute; 
+    z-index: 1;
+}
 
 
 .group-imgs {
